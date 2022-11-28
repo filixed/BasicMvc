@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Category Entity</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Category" asp-action="Create" class="btn btn-primary"><i class="bi bi-plus-square"></i> Create</a>
+        </div>
+    </div>
+    <br /><br />
+
+    <table class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    Category Name
+                </th>
+                <th>
+                    Display Order
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var category in Model){
+                <tr>
+                    <td width="50%">
+                        @category.Name
+                    </td>
+                    <td width="30%">
+                        @category.DisplayOrder
+                    </td>
+                    <td>
+                        <a asp-controller="Category" asp-action="Update" asp-route-id="@category.Id" class="btn btn-primary">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-controller="Category" asp-action="Get" asp-route-id="@category.Id" class="btn btn-primary">Details</a>
+                    </td>
+@*                    <td>
+                        <a asp-controller="Category" asp-action="Delete" asp-route-categoryId="@category.Id" class="btn btn-primary"><i class="bi bi-trash"></i></a>
+                    </td>*@
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,15 @@
+
+Q
+!BasicMvcWithGenericRepository.sln,f\3\f30e11d7a5030ac946baee46343ccbb8b6634ef5
+o
+?BasicMvcWithGenericRepository/Controllers/CategoryController.cs,9\6\96cc620af86101bc42c14c2fd87cae020610b88b
+g
+7BasicMvcWithGenericRepository/Repository/IUnitOfWork.cs,a\0\a0405776e1c9b3dde89fd0a6d807100fbe178f6b
+X
+(BasicMvcWithGenericRepository/Program.cs,3\4\347b4c94ce2486f138b41d4739b2dc7302b6d1ff
+m
+=BasicMvcWithGenericRepository/Repository/GenericRepository.cs,d\e\deb88b4af03fb15b28f063a27570957f5889e12c
+h
+8BasicMvcWithGenericRepository/Models/PostgreDbContext.cs,7\9\7992ea08ca9f942acf744092b01551489b487bca
+f
+6BasicMvcWithGenericRepository/Repository/UnitOfWork.cs,9\a\9a4b24291320767ab7410b2fe45bddef098522f2

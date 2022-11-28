@@ -1,0 +1,4 @@
+
+csharpsquid:S2953""[Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.(½ºã•8ÉÚºÖË0
+csharpsquid:S2953."[Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.(€›Á8ÉÚºÖË0
+Scsharpsquid:S1066&"/Merge this if statement with the enclosing one.(”›—8µõÀÉË0
