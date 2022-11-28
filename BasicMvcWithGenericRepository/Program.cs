@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<PostgreDbContext>(options => 
-    options.UseNpgsql("Host=localhost;Database=dotnet;Username=postgres;Password=123qwe")
+    options.UseNpgsql("Host=localhost:5432;Database=dotnet;Username=postgres;Password=123qwe")
 );
 
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
