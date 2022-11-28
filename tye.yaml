@@ -1,0 +1,24 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: basicmvcwithgenericrepository
+services:
+- name: basicmvcwithgenericrepository
+  project: BasicMvcWithGenericRepository/BasicMvcWithGenericRepository.csproj
+  bindings:
+    - port: 5000
+- name: postgres
+  image:  postgres
+  env:
+    - name: POSTGRES_USER
+      value: postgres
+    - name: POSTGRES_PASSWORD
+      value: "123qwe"
+    - name: POSTGRES_DB
+      value: dotnet
+  bindings:
+    - name: "postgres_tcp"
+      port: 5432
