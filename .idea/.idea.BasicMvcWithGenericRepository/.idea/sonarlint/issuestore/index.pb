@@ -17,5 +17,3 @@ n
 >BasicMvcWithGenericRepository/Repository/IGenericRepository.cs,7\3\73d7f9f6cffdd725b05ead191d2508b907fecb97
 x
 HBasicMvcWithGenericRepository/Migrations/20221108203843_InitMigration.cs,7\7\774dc2d2f42f82d01b9ca812d2960d91e4f59383
-y
-IBasicMvcWithGenericRepository/Migrations/PostgreDbContextModelSnapshot.cs,7\f\7f5e2ff9789039bd716ca3c9abde33a97e8a01f0
